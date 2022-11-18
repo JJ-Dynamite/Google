@@ -1,0 +1,147 @@
+* {
+	margin: 0;
+}
+.navDiv {
+	display: flex;
+	width: 17%;
+	margin-left: 80%;
+	justify-content: space-around;
+	margin-top: 1%;
+	height: 35px;
+}
+
+nav img {
+	margin-top: 5px;
+}
+
+.googleImg {
+	margin-top: 100px;
+}
+a {
+	margin-top: 8px;
+	text-decoration: none;
+}
+
+button {
+	border-radius: 3px;
+	height: 100%;
+	padding: 5px 12px;
+	background-color: #4c87e1;
+	color: white;
+	border: none;
+}
+.mainDiv {
+	width: 35%;
+	border-radius: 50px;
+	display: flex;
+	height: 40px;
+	border: 1px solid lightgrey;
+}
+
+.inputSpan {
+	width: 80%;
+}
+span {
+	vertical-align: top;
+}
+span:first-child {
+	width: 10%;
+	border-radius: 50px;
+	margin-top: 7px;
+}
+span:last-child {
+	width: 10%;
+	border-radius: 50px;
+	margin-top: 7px;
+}
+
+input {
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding: 0px;
+}
+
+section {
+	display: flex;
+	margin-top: 2%;
+	width: 23%;
+	justify-content: space-around;
+	margin-bottom: 2%;
+}
+section button {
+	padding: 10px 12px;
+	background-color: lightgrey;
+	color: black;
+}
+
+ul {
+	display: flex;
+	width: 30%;
+	padding-left: 0px;
+	list-style: none;
+	justify-content: space-around;
+	margin: 6px;
+}
+.BottomDiv {
+	display: flex;
+	font-size: 12px;
+	margin-top: 3%;
+}
+.BottomDiv span {
+	width: 7%;
+	margin-left: 31%;
+}
+a:hover {
+	text-decoration: underline;
+}
+button:hover {
+	border: 1px solid gray;
+}
+.mainDiv img {
+	width: 50%;
+}
+.navDiv {
+	width: 20%;
+}
+.mic {
+	position: absolute;
+	top: 251px;
+	right: 160px;
+	width: 10px;
+	height: 24px;
+}
+.app {
+	position: absolute;
+	top: 14px;
+	right: 100px;
+	height: 25px;
+	color: #9aa0a6;
+	opacity: 60%;
+}
+footer {
+	position: relative;
+	/* bottom: 0; */
+	top: 200px;
+}
+.f1 {
+	font-family: arial, sans-serif;
+	padding: 15px 48px;
+	border-bottom: 1px solid #dadce0;
+	font-size: 15px;
+	color: #70757a;
+	background-color: #f2f2f2;
+	/* transform: translate translateY(200px); */
+	/* position: absolute; */
+	/* bottom: 0; */
+}
+.f2 {
+	font-family: arial, sans-serif;
+	padding: 15px 30px;
+	border-bottom: 1px solid #dadce0;
+	font-size: 15px;
+	color: #70757a;
+	background-color: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+}
